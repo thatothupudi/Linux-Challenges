@@ -1,0 +1,50 @@
+Task 1
+~$ ls
+~$ pwd
+~$ mkdir workspace
+~$ cd workspace
+~$ ls
+~$ touch README.md
+~$ cp README.md CHANGELOG.md
+
+Task 2
+~$ touch exercise.md
+~$ ls
+~$ mv exercise.md /tmp
+~$ rm /tmp/exercise.md
+
+Task 3
+~$ cat > umuzi.md
+~$ cat > recruits.md
+~$ cat > cohort.md
+~$ cat > umuzi.md
+~$ echo "I Love Umuzi" > umuzi.md
+~$ cat > recruits.md
+~$ echo "Umuzi recruits are awesome" > recruits.md
+~$ cat > cohort.md
+~$ echo "I'm from cohort 20 group" > cohort.md
+~$ cat umuzi.md recruits.md cohort.md
+~$ cat umuzi.md recruits.md cohort.md > summary.md
+~$ cat summary.md
+~$ echo 'The End' >> summary.md
+~$ cat summary.md
+Task 4
+~$ locate umuzi.md
+~$ sudo updatedb
+~$ locate umuzi
+~$ touch search_result.md
+~$ locate umuzi > search_result.md
+~$ cat search_result.md
+~$ ls
+Task 5
+~$ cd Documents
+~$ touch pad.md
+~$ ls
+~$ cd ~/Desktop
+~$ mkdir work
+~$ cd Documents
+~$ cp pad.md pad_copy.md
+~$ sudo updatedb
+~$ locate pad_copy.md
+~$ cd ..
+~$ locate pad_copy.md
