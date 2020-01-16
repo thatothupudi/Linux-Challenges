@@ -31,6 +31,7 @@ Task 3
 ~$ cat summary.md
 ~$ echo 'The End' >> summary.md
 ~$ cat summary.md
+
 Task 4
 ~$ locate umuzi.md
 ~$ sudo updatedb
@@ -39,6 +40,7 @@ Task 4
 ~$ locate umuzi > search_result.md
 ~$ cat search_result.md
 ~$ ls
+
 Task 5
 ~$ cd Documents
 ~$ touch pad.md
@@ -51,6 +53,7 @@ Task 5
 ~$ locate pad_copy.md
 ~$ cd ..
 ~$ locate pad_copy.md
+
  Task 6 
 ~$ find ~/ -name *.pdf
 ~$ find ~/ -name *.pdf > pdfresults
