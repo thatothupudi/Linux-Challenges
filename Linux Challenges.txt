@@ -1,9 +1,12 @@
 Task 1
 ~$ ls
+#I see that it is showing a variety of information about files, sorting on a range of options and recursive listing. It means that this command line is for listing the contents of a directory or directories given to it via standard input.#
 ~$ pwd
+#I see it is printing the working directory using the actual names of the directory. This means if any of the subdirectories in the path are symbolic links, and you used the symbolic link names when changing to the directory, the symbolic names are printed.#
 ~$ mkdir workspace
 ~$ cd workspace
 ~$ ls
+#It doesn’t show variety listing of directories. This means the directory doesn’t contain list of contents of the directory.#
 ~$ touch README.md
 ~$ cp README.md CHANGELOG.md
 
@@ -48,3 +51,17 @@ Task 5
 ~$ locate pad_copy.md
 ~$ cd ..
 ~$ locate pad_copy.md
+ Task 6 
+~$ find ~/ -name *.pdf
+~$ find ~/ -name *.pdf > pdfresults
+~$ ls
+~$ cat pdfresults
+~$ cp pdfresults ~/Documents
+~$ cd Documents
+~$ ls
+~$ find . -type f -newermt 2020-01-16 -ls
+  Task 7
+~$ nano my_bio.md
+~$ ls
+~$ mkdir my_file.md
+~$ mv my_bio.md my_file.md
