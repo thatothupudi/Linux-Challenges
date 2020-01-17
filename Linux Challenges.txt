@@ -1,4 +1,4 @@
-Task 1
+Task 1: Basic Task
 ~$ ls
 #I see that it is showing a variety of information about files, sorting on a range of options and recursive listing. It means that this command line is for listing the contents of a directory or directories given to it via standard input.#
 ~$ pwd
@@ -10,13 +10,13 @@ Task 1
 ~$ touch README.md
 ~$ cp README.md CHANGELOG.md
 
-Task 2
+Task 2: Absolute and Relative Paths
 ~$ touch exercise.md
 ~$ ls
 ~$ mv exercise.md /tmp
 ~$ rm /tmp/exercise.md
 
-Task 3
+Task 3: cat commands
 ~$ cat > umuzi.md
 ~$ cat > recruits.md
 ~$ cat > cohort.md
@@ -32,7 +32,7 @@ Task 3
 ~$ echo 'The End' >> summary.md
 ~$ cat summary.md
 
-Task 4
+Task 4: The locate command
 ~$ locate umuzi.md
 ~$ sudo updatedb
 ~$ locate umuzi
@@ -41,7 +41,7 @@ Task 4
 ~$ cat search_result.md
 ~$ ls
 
-Task 5
+Task 5: The locate command cont..
 ~$ cd Documents
 ~$ touch pad.md
 ~$ ls
@@ -54,7 +54,7 @@ Task 5
 ~$ cd ..
 ~$ locate pad_copy.md
 
- Task 6 
+ Task 6: Find commands 
 ~$ find ~/ -name *.pdf
 ~$ find ~/ -name *.pdf > pdfresults
 ~$ ls
@@ -63,7 +63,8 @@ Task 5
 ~$ cd Documents
 ~$ ls
 ~$ find . -type f -newermt 2020-01-16 -ls
-  Task 7
+
+  Task 7:Text editor
 ~$ nano my_bio.md
 ~$ ls
 ~$ mkdir my_file.md
